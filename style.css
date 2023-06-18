@@ -256,7 +256,7 @@ button{
     width: 100%;
     height: auto;
     min-height: 100px;
-    background-image: url(../images/bg-image2.jpg);
+    background-image: url(bg-image2.jpg);
     image-resolution: 40px 40px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -374,7 +374,7 @@ button{
 {
     background-color: transparent;
     border-color: var(--gray-color);
-    color: var(--text-gray);
+    color: var(--text-white);
     font-size: 15px;
     font-weight: 400;
     padding:10px 20px ;
@@ -386,17 +386,17 @@ button{
 .contact_wrapper textarea:focus
 {
     border-color:var(--primary-color);
-    color:var(--text-gray);
+    color:var(--text-white);
 }
 
 .contact_wrapper .call_details
 {
-    color: var(--text-gray);
+    color: var(--text-white);
 }
 
 .contact_wrapper .call_details a{
     font-weight: 700;
-    color: var(--text-gray);
+    color: var(--text-white);
 }
 
 /*Footer Section*/
